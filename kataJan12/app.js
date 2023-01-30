@@ -1,8 +1,13 @@
-printFizzBuzz()
+
+
+const fizzBuzz = printFizzBuzz()
+
+console.log(fizzBuzz)
+
 
 function printFizzBuzz(){
     n=100
-    stringOfNr = ""
+    let stringOfNr = ''
 
     for(i = 1; i<=n; i++){
         if(i>1) stringOfNr += ", "
@@ -20,7 +25,7 @@ function printFizzBuzz(){
         }
     }
     
-    console.log(stringOfNr)
+    return stringOfNr
 }
 
 
